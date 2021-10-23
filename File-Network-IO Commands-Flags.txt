@@ -1,0 +1,48 @@
+BASH
+
+touch app.ts
+rm -r
+
+CMD
+
+TASKKILL /F /PID 11648
+
+BASH-CMD
+
+netstat -ano | findstr :3333
+
+
+PS
+
+Get-Process node
+Stop-Process -Id 38304 -Force
+Remove-Item -recurse
+Get-Content -raw package.json
+
+
+TYPESCRPT
+
+tsc --init
+tsc app.ts -w \\File watcher
+
+NODE
+
+npm init -y
+npm i -D \\install in dev environment
+npm run builid
+npm start
+npx add-gitignore node
+
+GIT
+
+git add .
+git add -A
+git commit -am "message"
+
+GITHUB
+
+gh auth login
+winpty gh repo create mliontest
+
+
+
