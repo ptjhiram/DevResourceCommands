@@ -37,9 +37,11 @@ GIT
 
 git add .
 git add -A
-git commit -am "message"
+git commit -am "message"hiram1masterwdfm
+
 
 GITHUB
+last access token (exp 11-25-2021): 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 
 
 gh auth login
 winpty gh repo create mliontest
