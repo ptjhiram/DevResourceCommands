@@ -52,10 +52,10 @@ psql -U postgres
 create role mightylion noinherit login password '1masterwdfm';
 ALTER USER mightylion WITH SUPERUSER; ALTER ROLE;
 
-/dt *.* list of relations
-/l list databases
-/du list roles
-/c DefaultTest  ## change database connection
+\dt *.* list of relations
+\l list databases
+\du list roles
+\c DefaultTest  ## change database connection
 
 docker run --name mlion-postgres -e POSTGRES_PASSWORD=mightylion -d postgres
 
