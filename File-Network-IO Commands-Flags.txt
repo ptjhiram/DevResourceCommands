@@ -51,6 +51,7 @@ POSTGRES
 psql -U postgres
 create role mightylion noinherit login password '1masterwdfm';
 ALTER USER mightylion WITH SUPERUSER; ALTER ROLE;
+ALTER TABLE address SET SCHEMA dbo
 
 \dt *.* list of relations
 \l list databases
